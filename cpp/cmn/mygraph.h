@@ -107,7 +107,8 @@ template <class V, class C> class mygraph {
     }
     */
 
-    /* Boggle */
+    /* Boggle 
+    */
     void print_path (char *str, int strlen)
     {
         if (strlen < 3) return;
