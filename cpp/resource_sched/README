@@ -1,0 +1,6 @@
+SIMULATOR for scheduling of stream of jobs, given its resource requirement and time-step,
+given another stream of resources, in form of <node, reource unit>
+- Job class represent the job <resource, time-step>
+- Jobpool holds all the jobs, as Jobqueue
+- Resource pool holds all the resources.
+- The way we can demonstrate the effectiveness of the scheduling is in terms of resource utilization, fairness, idle resource etc.
