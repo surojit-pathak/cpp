@@ -35,7 +35,7 @@ int main (void)
         }
 
         while (job) {
-            int node = respool.schedule(job->getRes());
+            int node = respool.schedule(job);
             if (node == NODE_NOT_ASSIGNED) {
                 jpool.timeOut(&respool);
             } else {
